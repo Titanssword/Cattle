@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="hellosolarsystem" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+  <script src="hello/hello.js"></script>
+  <script src="about/about.js"></script>
+  <script src="people/people.js"></script>
+  <script src="services/peopleSer.js"></script>
+  <script src="services/movieSer.js"></script>
+  <script src="services/productData.js"></script>
+  <script src="people/person.js"></script>
+  <script src="movie/movie.js"></script>
+  <script src="video/video.js"></script>
+  <script src="test/test.js"></script>
+  <script src="filter/filter.js"></script>
+  <script src="success/success.js"></script>
+  <script src="confirm/confirm.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</head>
+<body>
+    <!-- 
+    <div class="container">
+      <a ui-sref="hello" ui-sref-active="active">欢迎首页</a>
+      <ui-view></ui-view>
+    </div> -->
+    <div class="row">
+
+
+      <a ui-sref="about" ui-sref-active="active">关于</a>
+      <a ui-sref="people" ui-sref-active="active">会员</a>
+      <a ui-sref="movie" ui-sref-active="active">视频</a>
+      <a ui-sref="test" ui-sref-active="active">test</a>
+      <a ui-sref="filter" ui-sref-active="active">filter</a>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <a>欧美电影</a>
+      </div>
+      <div class="col-md-2">
+        <a>日本电影</a>
+      </div>
+      <div class="col-md-2">
+        <a>内地电影</a>
+      </div>
+      <div class="col-md-2">
+        <a>综艺影视</a>
+      </div>
+      <div class="col-md-2">
+        <a>电视剧</a>
+      </div>
+      <div class="col-md-2">
+        <a>电视剧</a>
+      </div>     
+    </div>
+    
+</body>
+</html>

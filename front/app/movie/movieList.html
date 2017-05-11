@@ -1,0 +1,10 @@
+<h3>这是所有的电影</h3>
+<ul>
+	<li ng-repeat="video in $ctrl.movie">
+		<a ui-sref="videoSimple({videoId: video.id})">
+			{{video.name}}
+			{{video.id}}
+		<a>
+	</li>
+	<a ui-sref="test" ui-sref-active="active">test</a>
+</ul>

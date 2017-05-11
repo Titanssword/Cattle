@@ -1,0 +1,12 @@
+<h3>视频播放页面</h3>
+<h4>视频名字{{$ctrl.video.name}}</h4>
+
+<h4>视频播放地址{{$ctrl.video.address}}</h4>
+
+<video controls="controls">
+  
+  <source src="{{$ctrl.video.address}}" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<button ui-sref="movie">返回</button>

@@ -1,0 +1,26 @@
+[
+  {
+    "id":1000,
+    "name":"iphone",
+    "quantity":3,
+    "price":4300
+  },
+  {
+    "id":1002,
+    "name":"xiaomi",
+    "quantity":3,
+    "price":1300
+  },
+  {
+    "id":1004,
+    "name":"huawei",
+    "quantity":3,
+    "price":"3300"
+  },
+  {
+    "id":1006,
+    "name":"meizu",
+    "quantity":3,
+    "price":"2300"
+  }
+]
